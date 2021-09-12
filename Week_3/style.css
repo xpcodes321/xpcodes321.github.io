@@ -62,7 +62,7 @@ nav a:hover {
   background-color: #7C1A00;
 }
 
-#content id {
+#content{
   background-image: url("trans-bg.gif");
   border: 1px solid #CCCCCC;
   margin-left: 180px;
