@@ -21,6 +21,7 @@ header h1{
   padding: 40px 40px 40px 120px;
   padding-left: 120px;
   background-image: url("header-image-1.gif");
+  
   background-repeat: no-repeat;
 
 }
@@ -29,7 +30,8 @@ header h1{
 margin-bottom: 30px;
 }
 
-nav{
+nav {
+
   float: left;
   width:: 150px;
 }
@@ -57,11 +59,11 @@ nav a {
   text-decoration: overline;
 }
 
-nav a:hover{
+nav a:hover {
   background-color: #7C1A00;
 }
 
-#content id{
+#content id {
   background-image: url("trans-bg.gif");
   border: 1px solid #CCCCCC;
   margin-left: 180px;
@@ -80,37 +82,36 @@ footer li {
 
 }
 
-h1 {
-  color: #8C0273;
+  h1 {
+    color: #8C0273;
 }
- h2 {
-   border-left: 20px solid #8C9273;
-   border-bottom: 5px solid #8C9273;
-   padding-left: 5px;
+  h2 {
+    border-left: 20px solid #8C9273;
+    border-bottom: 5px solid #8C9273;
+    padding-left: 5px;
  }
 
-h3 {
-  background-image: url("header-star-1.gif");
-  background-repeat: no-repeat;
-  padding-left: 20px;
+  h3 {
+    background-image: url("header-star-1.gif");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+  blockquote {
+    background-color: #FFE597;
+}
+
+  ul {
+    list-style-type: square;
+}
+
+  a {
+    color: #7C1A00;
+    font-weight: bold;
 
 }
 
-blockquote {
-  background-color: #FFE597;
-}
-
-ul {
-  list-style-type: square;
-}
-
-a {
-  color: 7C1A00;
-  font-weight: bold;
-
-}
-
-a:hover {
-  background-color: #FFE597;
+  a:hover {
+    background-color: #FFE597;
 
 }
