@@ -12,5 +12,13 @@
    background-attachment: fixed;
    background-color:#F7F3DE
 
-
  }
+
+header h1{
+  font-size: 350%;
+  color: #7C1A00
+  padding: 40px 40px 40px 120px;
+  padding-left: 120px;
+  background-image: url("header-image-1.gif")image();
+
+}
