@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Design 2: My JavaScript Clock</title>
+    <script>
+    function updateTime() {
+
+   	// get all parts of the current time
+     var now = new Date();
+     var hours = now.getHours();
+     var minutes = now.getMinutes();
+     var seconds = now.getSeconds();
+
+     // splice them together into a character string named "currentTime"
+     var currentTime = hours + ':' + minutes + ':' + seconds;
+
+     // get the clock div
+     var myClock = document.getElementById('clock');
+
+     // write the currentTime string to the clock div
+     myClock.innerHTML = currentTime;
+   }
+   </script>
+  </head>
+  <body onload="updateTime()">
+    <div id="clock"></div>
+
+    <div id="clock"></div>
+  </body>
+</html>
